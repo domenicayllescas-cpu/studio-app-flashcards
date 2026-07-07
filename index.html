@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio App</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#6C4BD1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Studio App">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h1>🦷 Mi Ruta de Estudio</h1>
+    <p class="sidebar-subtitle">Orden optimizado para aprender mejor</p>
+
+    <button id="chapter-dropdown-toggle" class="chapter-dropdown-toggle" type="button">
+      <span id="chapter-dropdown-label">📖 Capítulos</span>
+      <span id="chapter-dropdown-chevron" class="chevron">▾</span>
+    </button>
+
+    <div id="chapter-dropdown" class="chapter-dropdown">
+      <ul id="chapter-list" class="chapter-list"></ul>
+    </div>
+
+    <form id="add-chapter-form" class="add-chapter-form">
+      <input type="text" id="new-chapter-name" placeholder="Nombre del nuevo capítulo" required>
+      <button type="submit">+ Añadir capítulo</button>
+    </form>
+  </aside>
+
+  <!-- Main content -->
+  <main class="content">
+    <header class="content-header">
+      <h2 id="current-chapter-title">Selecciona un capítulo</h2>
+      <p id="book-chapter-badge" class="book-chapter-badge"></p>
+      <nav class="tabs">
+        <button class="tab-btn active" data-tab="cards">Tarjetas de estudio</button>
+        <button class="tab-btn" data-tab="test">🧪 Test</button>
+        <button class="tab-btn" data-tab="material">Material del capítulo</button>
+      </nav>
+    </header>
+
+    <!-- TAB: Flashcards -->
+    <section id="tab-cards" class="tab-panel active">
+      <form id="add-card-form" class="add-card-form">
+        <textarea id="new-question" placeholder="Pregunta" required rows="2"></textarea>
+        <textarea id="new-answer" placeholder="Respuesta" required rows="2"></textarea>
+        <button type="submit">Guardar tarjeta</button>
+      </form>
+
+      <div class="ai-cards-panel">
+        <span class="ai-cards-label">🤖 Crear tarjetas con la IA</span>
+        <div class="ai-count-toggle">
+          <button class="ai-count-btn" data-count="5" type="button">5</button>
+          <button class="ai-count-btn active" data-count="10" type="button">10</button>
+          <button class="ai-count-btn" data-count="15" type="button">15</button>
+        </div>
+        <button id="ai-generate-btn" type="button">✨ Generar preguntas</button>
+      </div>
+
+      <div class="cards-toolbar">
+        <span id="card-count">0 tarjetas</span>
+        <div class="view-toggle">
+          <button id="view-study-btn" class="view-btn active" type="button">🎯 Una por una</button>
+          <button id="view-grid-btn" class="view-btn" type="button">🗂 Cuadrícula</button>
+        </div>
+        <button id="shuffle-btn" type="button">🔀 Barajar</button>
+      </div>
+
+      <!-- Modo estudio: una tarjeta grande a la vez -->
+      <div id="study-mode" class="study-mode">
+        <button id="prev-card-btn" class="nav-arrow" type="button" title="Tarjeta anterior">‹</button>
+
+        <div class="study-card-wrap">
+          <div id="study-card" class="flashcard study-flashcard">
+            <div class="flashcard-inner">
+              <div class="flashcard-face flashcard-front" id="study-card-front"></div>
+              <div class="flashcard-face flashcard-back" id="study-card-back"></div>
+            </div>
+          </div>
+          <p id="study-position" class="study-position"></p>
+        </div>
+
+        <button id="next-card-btn" class="nav-arrow" type="button" title="Tarjeta siguiente">›</button>
+      </div>
+
+      <!-- Modo cuadrícula: todas las tarjetas visibles -->
+      <div id="cards-grid" class="cards-grid hidden"></div>
+    </section>
+
+    <!-- TAB: Test -->
+    <section id="tab-test" class="tab-panel">
+      <div id="test-intro" class="test-screen">
+        <h3>Pon a prueba lo que has aprendido</h3>
+        <p>Responde 10 preguntas de opción múltiple de este capítulo.</p>
+        <button id="test-start-btn" type="button">▶ Comenzar test (10 preguntas)</button>
+      </div>
+
+      <div id="test-quiz" class="test-screen hidden">
+        <div class="test-progress">
+          <span id="test-progress-label"></span>
+          <span id="test-score-label"></span>
+        </div>
+        <div class="test-question-card">
+          <p id="test-question-text"></p>
+        </div>
+        <div id="test-options" class="test-options"></div>
+        <button id="test-next-btn" class="test-next-btn hidden" type="button">Siguiente →</button>
+      </div>
+
+      <div id="test-results" class="test-screen hidden">
+        <h3>¡Test completado!</h3>
+        <p id="test-final-score" class="test-final-score"></p>
+        <button id="test-retry-btn" type="button">🔁 Reintentar test</button>
+      </div>
+    </section>
+
+    <!-- TAB: Material -->
+    <section id="tab-material" class="tab-panel">
+      <form id="upload-form" class="upload-form">
+        <input type="file" id="file-input" multiple>
+        <button type="submit">Subir material</button>
+      </form>
+      <ul id="material-list" class="material-list"></ul>
+    </section>
+  </main>
+</div>
+
+<script src="flashcards-seed.js"></script>
+<script src="ai-flashcards-pool.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
