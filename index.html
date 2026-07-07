@@ -36,10 +36,13 @@
       <input type="text" id="new-chapter-name" placeholder="Nombre del nuevo capítulo" required>
       <button type="submit">+ Añadir capítulo</button>
     </form>
+
+    <button id="global-test-nav-btn" class="global-test-nav-btn" type="button">🧪 TEST</button>
   </aside>
 
   <!-- Main content -->
   <main class="content">
+  <div id="chapter-view">
     <header class="content-header">
       <h2 id="current-chapter-title">Selecciona un capítulo</h2>
       <p id="book-chapter-badge" class="book-chapter-badge"></p>
@@ -133,11 +136,55 @@
       </form>
       <ul id="material-list" class="material-list"></ul>
     </section>
+  </div>
+
+  <!-- Vista: TEST General (banco de preguntas CENEVAL, independiente de los capítulos) -->
+  <div id="global-test-view" class="hidden">
+    <header class="content-header">
+      <h2>🧪 TEST General</h2>
+      <p class="book-chapter-badge">20 preguntas aleatorias · 30 minutos</p>
+    </header>
+
+    <div id="gtest-intro" class="test-screen">
+      <h3>Pon a prueba tus conocimientos generales</h3>
+      <p>20 preguntas aleatorias de opción múltiple, con 30 minutos para completarlas. Al finalizar podrás ver tu puntaje y la retroalimentación de cada pregunta.</p>
+      <button id="gtest-start-btn" type="button">▶ Iniciar Test</button>
+    </div>
+
+    <div id="gtest-quiz" class="test-screen hidden">
+      <div class="test-progress">
+        <span id="gtest-progress-label"></span>
+        <span id="gtest-timer-label" class="gtest-timer"></span>
+        <span id="gtest-score-label"></span>
+      </div>
+      <div class="test-question-card">
+        <p id="gtest-question-text"></p>
+      </div>
+      <div id="gtest-options" class="test-options"></div>
+      <button id="gtest-next-btn" class="test-next-btn hidden" type="button">Siguiente →</button>
+    </div>
+
+    <div id="gtest-results" class="test-screen hidden">
+      <h3>¡Test completado!</h3>
+      <p id="gtest-final-score" class="test-final-score"></p>
+      <div class="gtest-results-actions">
+        <button id="gtest-review-btn" type="button">📋 Ver retroalimentación</button>
+        <button id="gtest-retry-btn" type="button">🔁 Reintentar test</button>
+      </div>
+    </div>
+
+    <div id="gtest-review" class="test-screen gtest-review hidden">
+      <h3>Retroalimentación</h3>
+      <div id="gtest-review-list" class="gtest-review-list"></div>
+      <button id="gtest-retry-btn-2" type="button">🔁 Reintentar test</button>
+    </div>
+  </div>
   </main>
 </div>
 
 <script src="flashcards-seed.js"></script>
 <script src="ai-flashcards-pool.js"></script>
+<script src="test-bank.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -223,6 +223,38 @@ let testQuestions = [];
 let testIndex = 0;
 let testScore = 0;
 
+/* TEST General (banco de preguntas CENEVAL, independiente de los capítulos) */
+const globalTestNavBtn = document.getElementById('global-test-nav-btn');
+const chapterViewEl = document.getElementById('chapter-view');
+const globalTestViewEl = document.getElementById('global-test-view');
+
+const gtestIntroEl = document.getElementById('gtest-intro');
+const gtestQuizEl = document.getElementById('gtest-quiz');
+const gtestResultsEl = document.getElementById('gtest-results');
+const gtestReviewEl = document.getElementById('gtest-review');
+
+const gtestStartBtn = document.getElementById('gtest-start-btn');
+const gtestProgressLabel = document.getElementById('gtest-progress-label');
+const gtestTimerLabel = document.getElementById('gtest-timer-label');
+const gtestScoreLabel = document.getElementById('gtest-score-label');
+const gtestQuestionText = document.getElementById('gtest-question-text');
+const gtestOptionsEl = document.getElementById('gtest-options');
+const gtestNextBtn = document.getElementById('gtest-next-btn');
+const gtestFinalScore = document.getElementById('gtest-final-score');
+const gtestReviewBtn = document.getElementById('gtest-review-btn');
+const gtestRetryBtn = document.getElementById('gtest-retry-btn');
+const gtestRetryBtn2 = document.getElementById('gtest-retry-btn-2');
+const gtestReviewList = document.getElementById('gtest-review-list');
+
+const GTEST_NUM_QUESTIONS = 20;
+const GTEST_DURATION_SECONDS = 30 * 60;
+
+let gtestQuestions = [];
+let gtestIndex = 0;
+let gtestScore = 0;
+let gtestTimerInterval = null;
+let gtestRemainingSeconds = 0;
+
 const CHAPTER_COLORS = {
   pink: '#f4a6c0',
   orange: '#ffb066',
@@ -284,6 +316,7 @@ function selectChapter(chapterId) {
   renderCards();
   renderMaterials();
   resetTestUI();
+  showChapterView();
 }
 
 async function removeChapter(chapterId) {
@@ -634,6 +667,165 @@ testNextBtn.addEventListener('click', () => {
 
 testStartBtn.addEventListener('click', startTest);
 testRetryBtn.addEventListener('click', startTest);
+
+/* ---------- TEST General (banco CENEVAL) ---------- */
+function showChapterView() {
+  globalTestViewEl.classList.add('hidden');
+  chapterViewEl.classList.remove('hidden');
+}
+
+function showGlobalTestView() {
+  chapterViewEl.classList.add('hidden');
+  globalTestViewEl.classList.remove('hidden');
+}
+
+globalTestNavBtn.addEventListener('click', showGlobalTestView);
+
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function buildGlobalTestQuestions() {
+  if (typeof TEST_BANK === 'undefined' || TEST_BANK.length === 0) return [];
+  const pool = shuffleArray(TEST_BANK);
+  const selected = pool.slice(0, Math.min(GTEST_NUM_QUESTIONS, pool.length));
+  return selected.map(q => {
+    const order = shuffleArray(q.options.map((_, i) => i));
+    const options = order.map(i => q.options[i]);
+    const correctIndex = order.indexOf(q.correct);
+    return { question: q.question, options, correctIndex, selected: null };
+  });
+}
+
+function startGlobalTest() {
+  gtestQuestions = buildGlobalTestQuestions();
+  if (gtestQuestions.length === 0) {
+    alert('No hay banco de preguntas disponible para el TEST general.');
+    return;
+  }
+  gtestIndex = 0;
+  gtestScore = 0;
+  gtestRemainingSeconds = GTEST_DURATION_SECONDS;
+  gtestIntroEl.classList.add('hidden');
+  gtestResultsEl.classList.add('hidden');
+  gtestReviewEl.classList.add('hidden');
+  gtestQuizEl.classList.remove('hidden');
+  startGtestTimer();
+  renderGtestQuestion();
+}
+
+function startGtestTimer() {
+  stopGtestTimer();
+  updateGtestTimerLabel();
+  gtestTimerInterval = setInterval(() => {
+    gtestRemainingSeconds--;
+    updateGtestTimerLabel();
+    if (gtestRemainingSeconds <= 0) {
+      finishGlobalTest();
+    }
+  }, 1000);
+}
+
+function stopGtestTimer() {
+  if (gtestTimerInterval) {
+    clearInterval(gtestTimerInterval);
+    gtestTimerInterval = null;
+  }
+}
+
+function updateGtestTimerLabel() {
+  const remaining = Math.max(0, gtestRemainingSeconds);
+  const m = Math.floor(remaining / 60);
+  const s = remaining % 60;
+  gtestTimerLabel.textContent = '⏱ ' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+  gtestTimerLabel.classList.toggle('gtest-timer-warning', remaining <= 300);
+}
+
+function renderGtestQuestion() {
+  const q = gtestQuestions[gtestIndex];
+  gtestProgressLabel.textContent = 'Pregunta ' + (gtestIndex + 1) + ' / ' + gtestQuestions.length;
+  gtestScoreLabel.textContent = 'Puntaje: ' + gtestScore;
+  gtestQuestionText.textContent = q.question;
+  gtestOptionsEl.innerHTML = '';
+  gtestNextBtn.classList.add('hidden');
+
+  q.options.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'test-option-btn';
+    btn.textContent = opt;
+    btn.addEventListener('click', () => selectGtestOption(btn, i, q));
+    gtestOptionsEl.appendChild(btn);
+  });
+}
+
+function selectGtestOption(btn, i, q) {
+  if (q.selected !== null) return;
+  const allBtns = gtestOptionsEl.querySelectorAll('.test-option-btn');
+  allBtns.forEach(b => { b.disabled = true; });
+
+  q.selected = i;
+  if (i === q.correctIndex) {
+    btn.classList.add('correct');
+    gtestScore++;
+  } else {
+    btn.classList.add('incorrect');
+    allBtns[q.correctIndex].classList.add('correct');
+  }
+  gtestScoreLabel.textContent = 'Puntaje: ' + gtestScore;
+  gtestNextBtn.classList.remove('hidden');
+  gtestNextBtn.textContent = gtestIndex === gtestQuestions.length - 1 ? 'Ver resultados →' : 'Siguiente →';
+}
+
+gtestNextBtn.addEventListener('click', () => {
+  gtestIndex++;
+  if (gtestIndex >= gtestQuestions.length) {
+    finishGlobalTest();
+  } else {
+    renderGtestQuestion();
+  }
+});
+
+function finishGlobalTest() {
+  stopGtestTimer();
+  gtestQuizEl.classList.add('hidden');
+  gtestReviewEl.classList.add('hidden');
+  gtestResultsEl.classList.remove('hidden');
+  gtestFinalScore.textContent = gtestScore + ' / ' + gtestQuestions.length;
+}
+
+gtestReviewBtn.addEventListener('click', () => {
+  renderGtestReview();
+  gtestResultsEl.classList.add('hidden');
+  gtestReviewEl.classList.remove('hidden');
+});
+
+function renderGtestReview() {
+  gtestReviewList.innerHTML = '';
+  gtestQuestions.forEach((q, qi) => {
+    const item = document.createElement('div');
+    item.className = 'gtest-review-item';
+    const status = q.selected === null ? '⭕ Sin responder' : (q.selected === q.correctIndex ? '✅ Correcta' : '❌ Incorrecta');
+    const optsHtml = q.options.map((opt, i) => {
+      let cls = 'gtest-review-option';
+      if (i === q.correctIndex) cls += ' correct';
+      else if (i === q.selected) cls += ' incorrect';
+      return '<div class="' + cls + '">' + escapeHtml(opt) + '</div>';
+    }).join('');
+    item.innerHTML =
+      '<p class="gtest-review-q">' + (qi + 1) + '. ' + status + ' — ' + escapeHtml(q.question) + '</p>' +
+      '<div class="gtest-review-options">' + optsHtml + '</div>';
+    gtestReviewList.appendChild(item);
+  });
+}
+
+gtestStartBtn.addEventListener('click', startGlobalTest);
+gtestRetryBtn.addEventListener('click', startGlobalTest);
+gtestRetryBtn2.addEventListener('click', startGlobalTest);
 
 /* ---------- Material del capítulo ---------- */
 async function renderMaterials() {

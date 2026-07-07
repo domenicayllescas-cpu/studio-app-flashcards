@@ -28,6 +28,10 @@ body {
   color: var(--text-dark);
 }
 
+.hidden {
+  display: none !important;
+}
+
 .app {
   display: flex;
   min-height: 100vh;
@@ -204,6 +208,22 @@ body {
 
 .add-chapter-form button:hover {
   background: var(--yellow-dark);
+}
+
+.global-test-nav-btn {
+  margin-top: 14px;
+  background: rgba(255,255,255,.16);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,.4);
+  padding: 12px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.global-test-nav-btn:hover {
+  background: rgba(255,255,255,.28);
 }
 
 /* Main content */
@@ -490,6 +510,85 @@ body {
   font-weight: 800;
   color: var(--purple);
   margin: 10px 0 24px;
+}
+
+/* TEST General (banco de preguntas, independiente de los capítulos) */
+.gtest-timer {
+  font-weight: 800;
+  color: var(--purple);
+}
+
+.gtest-timer.gtest-timer-warning {
+  color: var(--pink-dark);
+}
+
+.gtest-results-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#gtest-results #gtest-retry-btn {
+  background: var(--teal);
+}
+
+#gtest-results #gtest-retry-btn:hover {
+  background: var(--teal-dark);
+}
+
+.gtest-review {
+  max-width: 720px;
+}
+
+.gtest-review-list {
+  max-height: 60vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 20px;
+  padding-right: 4px;
+}
+
+.gtest-review-item {
+  background: #faf9ff;
+  border: 1px solid #ece7fa;
+  border-radius: 14px;
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.gtest-review-q {
+  margin: 0 0 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text-dark);
+}
+
+.gtest-review-options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gtest-review-option {
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  background: #f1eefc;
+  color: var(--text-dark);
+}
+
+.gtest-review-option.correct {
+  background: var(--teal);
+  color: white;
+  font-weight: 600;
+}
+
+.gtest-review-option.incorrect {
+  background: var(--pink);
+  color: white;
 }
 
 .cards-toolbar {
