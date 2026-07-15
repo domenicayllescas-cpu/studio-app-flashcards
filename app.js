@@ -26,6 +26,7 @@ const DEFAULT_CHAPTERS = [
   { id: 'cap_6', bookChapter: 4, name: 'La Mucosa en Dientes e Implantes', color: 'purple', file: 'capitulos/cap4-mucosa-dientes-implantes.pdf' },
   { id: 'cap_7', bookChapter: 5, name: 'Osteointegración', color: 'pink', file: 'capitulos/cap5-osteointegracion.pdf' },
   { id: 'cap_8', bookChapter: 6, name: 'De la Función Táctil a la Osteopercepción', color: 'blue', file: 'capitulos/cap6-osteopercepcion.pdf' },
+  { id: 'cap_9', name: 'Banco de Práctica (Javeriana)', color: 'teal' },
 ];
 
 function loadChapters() {
@@ -895,10 +896,21 @@ uploadForm.addEventListener('submit', async (e) => {
   renderMaterials();
 });
 
+// Añade el capítulo "Banco de Práctica (Javeriana)" a instalaciones existentes
+// que ya tenían capítulos guardados antes de que este capítulo se agregara,
+// sin tocar los capítulos ni tarjetas que el usuario ya tiene.
+function ensureJaverianaChapter() {
+  if (!chapters.some(c => c.id === 'cap_9')) {
+    chapters.push({ id: 'cap_9', name: 'Banco de Práctica (Javeriana)', color: 'teal' });
+    saveChapters();
+  }
+}
+
 /* ---------- Inicialización ---------- */
 async function init() {
   setViewMode('study');
   chapters = loadChapters();
+  ensureJaverianaChapter();
   ensureDefaultFlashcards();
   renderChapterList();
   if (chapters.length) {

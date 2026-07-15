@@ -815,5 +815,803 @@ const DEFAULT_FLASHCARDS = {
       "question": "¿Qué implicaciones clínicas se derivan del umbral táctil aumentado en implantes durante la rehabilitación protésica?",
       "answer": "El odontólogo no debe basarse en la percepción oclusal del paciente, debe considerar el aumento gradual de la función táctil durante la cicatrización, recomendar dieta blanda para evitar sobrecarga, y valorar el bruxismo como contraindicación relativa a la carga inmediata."
     }
+  ],
+  "cap_9": [
+    {
+      "question": "En un paciente de 34 años de edad se encuentra caries oclusal en el 24, con respuesta pulpar disminuida aunque algo sensible a la percusión; radiográficamente se observa una lesión apical radiolúcida, circular, bien definida. Los hallazgos histológicos revelaron un contenido de fibroblastos, vasos sanguíneos, al igual que células plasmáticas, linfocitos y fagocitos mononucleares. Estos hallazgos corresponden a un:",
+      "answer": "Granuloma periapical."
+    },
+    {
+      "question": "Paciente de 5 años que presenta ulceras intraorales de 4 días de evolución precedidas por vesículas en zona de encías y paladar duro y mucosa no queratinizada, con fiebre y malestar general. Cual es su impresión diagnóstica?",
+      "answer": "Gingivoestomatis herpética."
+    },
+    {
+      "question": "Paciente adulto con absceso orofacial que no responde a la terapia con penicilina cristalina. Como resultado del cultivo se reportan microorganismos productores de beta-lactamasa, se decide utilizar amoxicilina más ácido clavulánico. Con respecto a esta combinación cabe anotar que:",
+      "answer": "Facilita la actividad antimicrobiana de la amoxicilina."
+    },
+    {
+      "question": "Paciente de 19 años con insuficiencia valvular mitral, a quien se le hará exodoncia de restos radiculares de 36, para lo cual se realiza profilaxis antibiótica con amoxicilina. El procedimiento duró 15 minutos. En relación con la prescripción para la profilaxis puede afirmarse que:",
+      "answer": "Se debe administrar dosis única de 2g 1 hora antes del procedimiento."
+    },
+    {
+      "question": "Al realizar la exodoncia de un 38 incluido se produjo una hemorragia intensa debido al compromiso de las raíces con el conducto mandibular. El manejo más indicado en este tipo de complicación intraoperatoria sería:",
+      "answer": "Si la exodoncia ha finalizado taponar el alvéolo con material hemostático y suturar."
+    },
+    {
+      "question": "Paciente de 24 años quien consulta por trauma facial por accidente de tránsito. Clínicamente presenta asimetría facial en región malar izquierda con edema y equimosis periorbitaria. Para confirmar una fractura en el complejo cigomático-malar, la radiografía de elección es:",
+      "answer": "De Watters."
+    },
+    {
+      "question": "Un odontólogo realiza exodoncia de tres molares incluidos con odontectomía y prescribe ibuprofeno 400 mg cada 6 horas, asociándolo con diclofenac 50 mg cada 12 horas por siete dias. Frente a esta prescripción usted considera que:",
+      "answer": "Los dos fármacos tienen el mismo mecanismo de acción y efecto farmacológico."
+    },
+    {
+      "question": "Para la exodoncia de un segundo molar inferior es necesario anestesiar:",
+      "answer": "Los nervios dentario inferior, lingual y largo bucal."
+    },
+    {
+      "question": "Al realizar exodoncias en el maxilar superior, una de las complicaciones que más frecuentemente se presenta es la comunicación oroantral. El procedimiento indicado para el manejo de este caso es:",
+      "answer": "Cierre inmediato del alvéolo mediante sutura."
+    },
+    {
+      "question": "Un paciente de 25 años presenta fractura a nivel del ángulo mandibular derecho, la cual ya ha sido fijada e inmovilizada. Para que se inicie la formación del callo primario es necesario que:",
+      "answer": "Se movilicen osteoblastos desde periostio y endostio."
+    },
+    {
+      "question": "Cual es el manejo terapéutico INMEDIATO de una luxación condilar espontánea de la articulación temporomandibular?",
+      "answer": "Manipulación de Nelaton (distracción), únicamente."
+    },
+    {
+      "question": "El factor etiológico principal de la anquilosis fibrosa de la articulación temporomandibular es:",
+      "answer": "Micro trauma."
+    },
+    {
+      "question": "Paciente de 8 años de edad quien sufrió trauma dentoalveolar de 2 días de evolución. Al examen clínico y radiográfico se observa intrusión del 100% del central superior derecho permanente. Indique el tratamiento de elección:",
+      "answer": "Esperar reerupción por lo menos seis meses."
+    },
+    {
+      "question": "Paciente de 7 años de edad quien asiste por presentar dolor al dulce a nivel del 85, presenta al examen clínico caries activa cavitacional MOD, radiograficamente se observa zona radiolucida que involucra tejido pulpar. Indique el tratamiento a seguir:",
+      "answer": "Pulpotomia y corona de acero."
+    },
+    {
+      "question": "Paciente de 6 años de edad y 20 kg de peso, madre refiere a la anamnesis haber presentado fiebre de 38 grados, con historia de recubrimiento pulpar indirecto profundo, al examen clínico presenta borramiento del surco yugal, sintomatología dolorosa a la percusión y presión a nivel del 65, radiográfica mente se observa obturación en limite dentino pulpar. El diagnostico pulpar es:",
+      "answer": "Periodontitis apical aguda no supurativa."
+    },
+    {
+      "question": "Paciente de cuatro años de edad quien asiste por primera vez a consulta odontológica. Clínicamente se observa espacios cerrados y caries activa no cavitacional en segundos molares inferiores. Las radiografías indicadas para diagnosticar este paciente son:",
+      "answer": "Coronales."
+    },
+    {
+      "question": "Un paciente de 12 años con una mordida cruzada anterior. Al manipularlo logra una relación borde a borde. Usted lo diagnosticaría como:",
+      "answer": "Pseudo clase III."
+    },
+    {
+      "question": "La maloclusión clase II división 1 dentoalveolar puede presentar:",
+      "answer": "Protrusion alveolar superior."
+    },
+    {
+      "question": "En la triada etiológica de los hábitos, para que estos se consideren como deletéreos y causantes de una maloclusion incluye:",
+      "answer": "Frecuencia, duración e intensidad."
+    },
+    {
+      "question": "La edad ideal para interceptar y corregir una mordida cruzada posterior unilateral en un paciente es :",
+      "answer": "Tan pronto como se detecte."
+    },
+    {
+      "question": "En la terminología utilizada para la clasificación y descripción de las maloclusiones, la proquelia es:",
+      "answer": "Posición adelantada de los labios."
+    },
+    {
+      "question": "Los métodos de análisis en dentición mixta sirven para determinar:",
+      "answer": "Determinar espacio disponible para premolares y canino."
+    },
+    {
+      "question": "La periodontitis agresivas pueden clasificarse según su distribución en localizadas y generalizadas. El signo característico de las periodontitis agresivas localizadas es que:",
+      "answer": "Afectan más frecuentemente primeros molares e incisivos."
+    },
+    {
+      "question": "El diagnóstico radiológico es pilar fundamental en el estudio para la colocación de implantes dentales. La radiografía considerada de alta exactitud para valorar los maxilares y que permite valorar en las tres dimensiones del tejido es la:",
+      "answer": "Tomografía axial computarizada."
+    },
+    {
+      "question": "En la reevaluación de la fase higiénica de un paciente sistémicamente sano, se encuentra en 16 lesión de furca grado III que involucra la raíz meso vestibular y bolsa periodontal de 11 mm. En mesial; las otras raíces (Distal y palatina) están sanas, radiográficamente se observa separación de las raíces, tratamiento endodóntico y perforación de la raíz mesial en la zona media. El tratamiento de elección debe ser:",
+      "answer": "Amputación de la raíz mesial."
+    },
+    {
+      "question": "El diagnóstico periodontal de un paciente de 25 años, sistémicamente sano es: Periodontitis crónica incipiente en 26 con lesión de furca grado I vestibular y gingivitis en los demás sitios. En la reevaluación de la fase higiénica se encuentra ausencia de sangrado y de bolsas. El manejo a seguir es realizar:",
+      "answer": "Fase de Mantenimiento."
+    },
+    {
+      "question": "La gingivectomía es una de las técnicas utilizadas para alargamiento de corona clínica y corresponde al corte o remoción de los tejidos blandos de la pared de la pseudobolsa y se encuentra CONTRAINDICADA cuando:",
+      "answer": "Se necesita realizar osteotomía para recuperar espesor biológico."
+    },
+    {
+      "question": "El perfil de emergencia se considera el contorno del diente en el momento que este emerge del periodonto. Este perfil de emergencia al reproducirlo en una corona completa deberá ser.",
+      "answer": "Convexo."
+    },
+    {
+      "question": "Cuando hablamos de “la lesión de los tejidos periodontales cuando se ejerce una fuerza excesiva sobre un diente con estructuras de soporte normal”. Nos estamos refiriendo a:",
+      "answer": "Trauma oclusal primario."
+    },
+    {
+      "question": "Al realizar una cirugía periodontal levantando un colgajo que incluye el periostio en su totalidad para exponer hueso subyacente, se hace referencia a un:",
+      "answer": "Colgajo de espesor total."
+    },
+    {
+      "question": "La unidad dentogingival está constituida por:",
+      "answer": "Encía, diente."
+    },
+    {
+      "question": "El parámetro clínico más objetivo para determinar salud o enfermedad periodontal es:",
+      "answer": "El nivel de inserción."
+    },
+    {
+      "question": "De las siguientes patologías periodontales, cual deberá ser tratada en la fase de urgencia:",
+      "answer": "Absceso periodontal."
+    },
+    {
+      "question": "Las Curetas de Mc Call son clasificadas como:",
+      "answer": "Curetas universales."
+    },
+    {
+      "question": "En el momento de hacer un encerado diagnóstico de un paciente que va a necesitar una prótesis fija de cinco unidades en el maxilar superior, los contactos B se consideran:",
+      "answer": "Equilibradores."
+    },
+    {
+      "question": "A la consulta odontológica asiste un paciente de 25 años de edad que requiere un análisis de oclusión muy completo y para esto se decide hacer el adecuado montaje en el articulador semiajustable. Cuales son en orden los pasos clínicos para este procedimiento:",
+      "answer": "Toma de Impresiones, Registro Bicóndilo, Registro de Céntrica, Registros de Lateralidad."
+    },
+    {
+      "question": "En un paciente de 22 años con buen estado de salud, al examen clínico encuentra obturación en el 36 OM efectuada hace dos años en resina compuesta híbrida, con percolación marginal. Este problema se debe a la siguiente razón:",
+      "answer": "Por deterioro de la adhesión marginal por altas discrepancias entre los coeficientes de expansión térmica entre la resina y el tejido dentario."
+    },
+    {
+      "question": "En un paciente de 18 años de edad con una caries aguda a nivel de 16 que en el momento de retirarla se hizo una exposición pulpar por utilizar una fresa pequeña. Cual es el procedimiento clínico a seguir:",
+      "answer": "Colocar hidróxido de calcio de alta pureza y encima un cemento de fosfato de Zn y amalgama."
+    },
+    {
+      "question": "Paciente sano de 25 años de edad, sin contraindicaciones médicas para tratamiento odontológico, con diente # 11 que se ha fracturado por trauma hace 2 días, perdiendo el 75 % de su corona clínica y con solo la pared distal remanente, con exposición pulpar. El tratamiento a seguir es:",
+      "answer": "Endodoncia, retenedor intraradicular y corona completa."
+    },
+    {
+      "question": "A la consulta llega un paciente quien al examen clínico presenta exposición pulpar por caries en el # 27, con dolor intermitente y pruebas de sensibilidad positivas. Radiográficamente no se observan cambios periapicales. El diagnóstico es:",
+      "answer": "Pulpitis irreversible crónica abierta."
+    },
+    {
+      "question": "Para un paciente con luxación extrusiva, el tratamiento inmediato que se debe realizar es:",
+      "answer": "Reposición y ferulización semirígida durante 7 a 14 días."
+    },
+    {
+      "question": "Un paciente que presenta torus, ubicado en la sutura media del paladar en el maxilar superior asintomático, cual será el conector mayor de elección al realizar una prótesis parcial removible",
+      "answer": "Herradura o en U."
+    },
+    {
+      "question": "En un paciente de 32 años con estado se salud bueno, oclusión en límites normales, sin signos de bruxomanía, caries MOD extensa con severo socavado de la cúspide MP el tratamiento de elección es:",
+      "answer": "Incrustación Onlay en metal noble ."
+    },
+    {
+      "question": "En el procedimiento de montaje de dientes para un caso de prótesis total superior e inferior, como debe ser el patrón oclusal durante los movimientos de lateralidad.",
+      "answer": "Oclusión bilateral balanceada."
+    },
+    {
+      "question": "La Clasificación I de Kennedy se define como el:",
+      "answer": "Área edéntula bilateral posterior."
+    },
+    {
+      "question": "La relación diámetro y altura en las preparaciones de los pilares para prótesis fija permite:",
+      "answer": "Resistencia de las prótesis ante las fuerzas oblicuas o de torque por palanca."
+    },
+    {
+      "question": "En un diente con un diagnóstico de lesión endodóntica primaria y periodontal secundaria el tratamiento indicado a realizar es:",
+      "answer": "Endodóntico."
+    },
+    {
+      "question": "La caries dental se puede definir como una enfermedad infecciosa, transmisible y multifactorial que afecta los dientes. El diagnóstico clínico se debe realizar a partir de la aparición de la caries de mancha blanca. Según la historia natural de la enfermedad en que periodo y fase se encuentra:",
+      "answer": "Periodo patogénico, fase precoz."
+    },
+    {
+      "question": "De el diagnostico del siguiente caso clínico: Paciente mujer de 50 anos de edad que presenta fístula vestibular activa a nivel del primer premolar inferior derecho a nivel de la encía adherida, sin bolsa periodontal, restauración desadaptada y asintomático. Radiográficamente presenta restauración extensa y desadaptada y lesión apical a nivel del primer premolar inferior derecho:",
+      "answer": "Periodontitis apical crónica supurativa a nivel del diente #44."
+    },
+    {
+      "question": "Si comparamos la función mandibular con un sistema de palancas, idealmente cuál debería ser la palanca que se aplica al sistema masticatorio?",
+      "answer": "Palanca clase II."
+    },
+    {
+      "question": "La función principal del músculo temporal es:",
+      "answer": "Eleva y retruye la mandíbula."
+    },
+    {
+      "question": "La zona hibrida se refiere a:",
+      "answer": "La penetración del acondicionador acido."
+    },
+    {
+      "question": "Al realizar una incrustación en resina, esta se debe cementar idealmente con:",
+      "answer": "Cemento a base de resina."
+    },
+    {
+      "question": "La adhesión es la unión de materiales de:",
+      "answer": "De diferente naturaleza química."
+    },
+    {
+      "question": "La capacidad que tiene una restauración para resistir fuerzas verticales que tienden a desalojarla se llama:",
+      "answer": "Retención."
+    },
+    {
+      "question": "Los márgenes restaurativos intracreviculares no deben sobrepasar:",
+      "answer": "El ancho biológico."
+    },
+    {
+      "question": "El principal método para incrementar la resistencia y la estabilidad en un diente para corona completa de un molar inferior Con espacio inter oclusal reducido es:",
+      "answer": "Crear surcos o rieleras."
+    },
+    {
+      "question": "La mayor concentración de esfuerzos en una prótesis fija de tres unidades posterior con pilares mesial y distal está ubicada en:",
+      "answer": "Los conectores."
+    },
+    {
+      "question": "La función principal de los apoyos oclusales es:",
+      "answer": "Orientar, dirigir las fuerzas oclusales sobre los dientes pilares y evitar la intrusión de la PPR."
+    },
+    {
+      "question": "Paciente de sexo masculino de 38 años de edad quien consulta por presentar en el carrillo derecho una lesión exofítica de 1 cm. de diámetro, sesil, asintomática, de tiempo de evolución desconocido, cubierta por mucosa normal, que no reporta crecimiento en los últimos 6 meses y que no presenta adenopatías clínicamente evidentes. En el reporte histopatológico luego de biopsia excisional se encuentran numerosos fibroblastos y matriz densa de colágeno con ligero infiltrado inflamatorio. Esta lesión corresponde a un:",
+      "answer": "Fibroma."
+    },
+    {
+      "question": "Entre los 6 y los 9 años de edad, que dientes permanentes se pueden encontrar en un paciente con un desarrollo normal de la dentición:",
+      "answer": "Primeros Molares, centrales superiores e inferiores, laterales superiores e inferiores."
+    },
+    {
+      "question": "Los sellantes son una medida terapéutica que se utiliza cuando se desea prevenir la presencia de caries dental, teniendo en cuenta las indicaciones para su uso. Según los niveles de prevención de Leavell & Clark esta medida terapéutica se encuentra en el siguiente nivel:",
+      "answer": "Prevención primaria, prevención específica"
+    },
+    {
+      "question": "Paciente de 22 años que sufrió fractura complicada de la corona hace tres días que afecto la superficie mesoincisal, con exposición pulpar. La pulpa es sensible al contacto con un instrumento. Su tratamiento indicado es:",
+      "answer": "Tratamiento en una sola sesión."
+    },
+    {
+      "question": "Paciente de 30 años quien presenta en el 43 reabsorción externa radicular apical, cuál sería el manejo a seguir para éste paciente:",
+      "answer": "Controles clínicos y radiográficos."
+    },
+    {
+      "question": "En la microcirculación pulpar las estructuras encargadas del intercambio de nutrientes entre el fluido sanguíneo y los tejidos son:",
+      "answer": "Los capilares"
+    },
+    {
+      "question": "En la pulpa dental la zona libre de células se caracteriza por la presencia de:",
+      "answer": "Capilares y fibras nerviosas amielínicas"
+    },
+    {
+      "question": "Un paciente de 30 años con periodontitis crónica moderada al cual se le realizó fase higiénica pero no logró controlar su higiene oral:",
+      "answer": "No se puede realizar fase quirúrgica hasta que controle higiene oral"
+    },
+    {
+      "question": "Un paciente presenta lesión de furca en un 46 por vestibular de 7mm, en sentido horizontal y en sentido vertical de 5 mm desde el techo (fornix). Su clasificación sería:",
+      "answer": "Grado III B"
+    },
+    {
+      "question": "Si un paciente que presenta en el 31 una recesion gingival de 5 mm y profundidad de surco periodontal de 3 mm, el nivel de inserción es:",
+      "answer": "8 mm"
+    },
+    {
+      "question": "A la consulta de urgencia asiste un paciente fumador de 35 años, que refiere dolor agudo, constante y generalizado de cavidad oral, de 3 días de evolución. Clínicamente presenta halitosis severa, inflamación gingival generalizada con úlceras localizadas en papilas interdentales, sangrado al sondaje suave sin formación de bolsas y abundante placa bacteriana. Radiográficamente, no hay pérdida ósea. El diagnóstico es:",
+      "answer": "Gingivitis ulceronecrotizante (GUN)"
+    },
+    {
+      "question": "En las enfermedades gingivales modificadas por factores sistémicos el pronóstico depende de:",
+      "answer": "cControlar la enfermedad sistémica"
+    },
+    {
+      "question": "Paciente de 60 años, al que se le realizó implante de cuchilla hace 20 años, en zona de 46-47. Al examen clínico presenta movilidad grado I de las coronas sobre los implantes, asintomático. Al examen radiográfico se observa radiolucidez perimplantar de 0.5 mm en todo el implante. De este caso podemos afirmar que:",
+      "answer": "Según los criterios de éxito para los implantes dentales actuales, es un implante fracasado."
+    },
+    {
+      "question": "El ángulo de la eminencia afecta la morfología dental de las siguientes maneras EXCEPTO:",
+      "answer": "mayor ángulo de la eminencia, mayor altura cuspídea y mayor profundidad de las fosas."
+    },
+    {
+      "question": "Las características de resistencia de las resinas las confieren:",
+      "answer": "Los rellenos inorgánicos"
+    },
+    {
+      "question": "En un caso de prótesis total, cuando se detecta una discrepancia en la relación céntrica durante la prueba de los dientes, es indispensable realizar lo siguiente:",
+      "answer": "Retirar los dientes posteriores de la prótesis inferior y tomar un nuevo registro"
+    },
+    {
+      "question": "En el procedimiento de montaje de dientes para un caso de prótesis total superior e inferior, como debe ser el patrón oclusal durante los movimientos de lateralidad debe ser con:",
+      "answer": "Oclusión bilateral balanceada"
+    },
+    {
+      "question": "Un paciente de presenta una distancia de 6mm entre el borde libre de la encía y el piso de la boca en el maxilar inferior, con alta pérdida del reborde alveolar. El conector mayor que se utilizaría para la elaboración de una prótesis parcial removible es:",
+      "answer": "El Plato lingual"
+    },
+    {
+      "question": "Una incrustación cerámica MOD con recubrimiento cuspídeo en un premolar superior se debe cementar definitivamente con:",
+      "answer": "Cemento polimérico dual"
+    },
+    {
+      "question": "De los materiales para cementación definitiva se puede afirmar lo siguiente:",
+      "answer": "El fosfato de Zinc por su tipo de reacción ácido base se disuelve en determinado tiempo."
+    },
+    {
+      "question": "La regla básica para la construcción de las bases protésicas en una prótesis parcial removible a extensión distal es:",
+      "answer": "Extender la base lo más posible sin interferir con la acción muscular y los órganos circundantes"
+    },
+    {
+      "question": "La característica que debe tener un conector mayor tipo barra lingual es EXCEPTO:",
+      "answer": "Permitir un grado apropiado de resiliencia para distribuir las cargas oclusales y generar un movimiento fisiológico en los dientes pilares."
+    },
+    {
+      "question": "La Clasificación I de Kennedy se define como:",
+      "answer": "Área edéntula bilateral posterior"
+    },
+    {
+      "question": "A partir de qué estructura se forma la raíz:",
+      "answer": "Asa Epitelial de Hertwing"
+    },
+    {
+      "question": "La técnica de clark en la interpretación radiográfica nos dice:",
+      "answer": "y c son correctas."
+    },
+    {
+      "question": "El nervio maxilar inferior, la tercera rama del trigémino abandona la fosa craneal media por:",
+      "answer": "Agujero oval"
+    },
+    {
+      "question": "Los forceps universales utilizados para las extracciones inferiores y superiores son:",
+      "answer": "Forceps 150 superiores y 151 inferiores."
+    },
+    {
+      "question": "Para realizar la exodoncia de un molar inferior se deben anestesiar:",
+      "answer": "N dental inferior – N lingual – N bucal"
+    },
+    {
+      "question": "Los pasos realizados durante una extracción son:",
+      "answer": "Sindesmotomía – prensión – tracción – luxación – avulsión"
+    },
+    {
+      "question": "De los siguientes tumores malignos es más frecuente en boca el:",
+      "answer": "Carcinoma escamocelular bien diferenciado"
+    },
+    {
+      "question": "Cuánto tiempo se demora en cerrar el ápice radicular luego de la erupción del diente:",
+      "answer": "2-3 años"
+    },
+    {
+      "question": "La gigivoestomatitis herpetica se caracteriza clínicamente por la presencia de:",
+      "answer": "Vesículas"
+    },
+    {
+      "question": "A un paciente con prótesis valvular usted le realizaría el examen periodontal y la terapia correspondiente:",
+      "answer": "Con premedicación de 2 gr de amoxicilina 1 hora antes de la cita"
+    },
+    {
+      "question": "A un paciente durante el pos-operatorio usted le prescribiría como agente antiplaca:",
+      "answer": "Clorhexidina"
+    },
+    {
+      "question": "Cómo se llama el fenómeno de pérdida de liquido de un material dental:",
+      "answer": "Sineresis"
+    },
+    {
+      "question": "El raspaje y alisado radicular en un paciente con periodontitis cicatriza con:",
+      "answer": "Epitelio de unión largo"
+    },
+    {
+      "question": "El surco marginal es el límite de:",
+      "answer": "La encía libre con la encía adherida"
+    },
+    {
+      "question": "La función de estas fibras es proteger el paquete vasculonervioso:",
+      "answer": "Apicales"
+    },
+    {
+      "question": "El aporte sanguíneo del epitelio de unión esta dado por:",
+      "answer": "El plexo dentogingival"
+    },
+    {
+      "question": "Los restos epitelial es de malassez son:",
+      "answer": "Restos de la vaina radicular"
+    },
+    {
+      "question": "El mecanismo de adhesión del epitelio al diente erupcionado lo llamamos:",
+      "answer": "Adherencia epitelial primaria"
+    },
+    {
+      "question": "La pared medial o interna de la órbita esta formada por los siguientes huesos:",
+      "answer": "esfenoides, etmoides, unguis y maxilar superior"
+    },
+    {
+      "question": "Es la dentina producida después que el diente ha completado la formación radicular y se constituye en un depósito continuo por los odontoblatos durante toda la vida ante una pulpa vital:",
+      "answer": "Dentina terciaria"
+    },
+    {
+      "question": "Corresponde a una anomalía, en la cual un solo germen dental se invagina, provocando la formación incompleta de dos dientes que pueden aparecer en forma de corona bífida o como raíz única:",
+      "answer": "Geminación"
+    },
+    {
+      "question": "De acuerdo a la clasificación de la academia americana de periodoncia, dentro de las lesiones gingivales no inducidas por placa bacteriana dental se encuentran excepto:",
+      "answer": "Gingivitis simple asociada a Diabetes Mellitus"
+    },
+    {
+      "question": "Son características del ameloblastoma excepto:",
+      "answer": "Es el tumor odontógeno más frecuente"
+    },
+    {
+      "question": "El tratamiento para una avulsion de un diente permanente con ápice abierto es:",
+      "answer": "Reimplante-ferulización-control radiográfico"
+    },
+    {
+      "question": "Dentro de las indicaciones de la pulpectomia, indique la correcta:",
+      "answer": "Hemorragia excesiva"
+    },
+    {
+      "question": "Los huesecillos del oído medio en orden de lateral a medial son:",
+      "answer": "martillo, yunque y estribo"
+    },
+    {
+      "question": "Paciente de 6 años de edad que al examen clínico y radiográfico presenta en un 52 las siguientes características: corona bifida-una sola raíz-un conducto. La anomalía de desarrollo que presenta este diente es:",
+      "answer": "anomalía de forma-geminación"
+    },
+    {
+      "question": "Paciente de 7 años de edad, que llega a la clínica con dolor espontáneo de un 54 de 3 días de evolución, radiograficamente se observa lesión de furca,conductos parcialmente obturados y destrucción coronal. El tratamiento es:",
+      "answer": "Exodoncia"
+    },
+    {
+      "question": "Indique el efecto que produce desecar la dentina después del grabado ácido, en los procesos de adhesión:",
+      "answer": "Colapsa la malla colágena"
+    },
+    {
+      "question": "La hipersensibilidad dentinal se da por?:",
+      "answer": "Estimulación de las fibras nerviosas tipo a delta en la periferia de la pulpa dental."
+    },
+    {
+      "question": "Para realizar exodoncia del 55, se requiere bloqueo a nivel de los nervios:",
+      "answer": "Alveolar medio y palatino anterior"
+    },
+    {
+      "question": "La mucosa bucal histológica y funcionalmente se divide en:",
+      "answer": "Epitelio queratinizado, paraqueratinizado y no queratinizado"
+    },
+    {
+      "question": "De las tres ramas del trigémino se considera nervio mixto (sensitivo – motor):",
+      "answer": "N. maxilar inferior"
+    },
+    {
+      "question": "En la extracción de un primer molar superior se deben anestesiar:",
+      "answer": "N alveolar superior medio – N alveolar superior posterior – N palatino medio"
+    },
+    {
+      "question": "En una prótesis removible, como se colocan los conectores menores:",
+      "answer": "Paralelos al eje de fulcro"
+    },
+    {
+      "question": "En cuanto al glutaraldehido es correcto afirmar:",
+      "answer": "Es bactericida"
+    },
+    {
+      "question": "El alginato es:",
+      "answer": "hidrocloide irreversible"
+    },
+    {
+      "question": "El 54 presenta caries en fosa central, el resto de fisuras oclusales están sanas; la caries involucra esmalte y dentina, que tratamiento realizaría:",
+      "answer": "Resina preventiva"
+    },
+    {
+      "question": "Tixotropía es:",
+      "answer": "Es la capacidad de un liquido para humectar un material"
+    },
+    {
+      "question": "Cuál es la proporción agua- polvo ideal en la preparación del yeso tipo 4.:",
+      "answer": "21 ml de agua por 100 gramos de polvo"
+    },
+    {
+      "question": "Los carcinomas son de origen:",
+      "answer": "Epitelial"
+    },
+    {
+      "question": "Dónde se origina un mixoma odontogénico:",
+      "answer": "En el tejido pulpar"
+    },
+    {
+      "question": "Se espera que después de un mes de terminada la fase higiénica la movilidad:",
+      "answer": "Se reduzca"
+    },
+    {
+      "question": "Un tumor odontogénico epitelial que se forma específicamente de los restos epiteliales de Malasses:",
+      "answer": "Ameloblastoma"
+    },
+    {
+      "question": "Qué es la línea alba:",
+      "answer": "Es una queratinizacion por fricción paralela a la linea de oclusión"
+    },
+    {
+      "question": "Para un blanqueamiento interno en diente no vital cual es el material de preferencia:",
+      "answer": "Peroxido de hidrógeno"
+    },
+    {
+      "question": "Según Kennedy un paciente desdentado posterior unilateral cómo se clasifica:",
+      "answer": "Clase segunda"
+    },
+    {
+      "question": "Cuál es el nombre de la cavidad oral en etapa embrionaria:",
+      "answer": "Estomodeo"
+    },
+    {
+      "question": "El transporte de un líquido a travez de una membrana:",
+      "answer": "Difusión pasiva"
+    },
+    {
+      "question": "Los propioceptores son aquellos receptores:",
+      "answer": "Que responden a estímulos internos"
+    },
+    {
+      "question": "Una indicación para utilizar anestésico sin vasoconstrictor es:",
+      "answer": "Que el procedimiento a realizar sea de corta duración"
+    },
+    {
+      "question": "A la consulta se presenta una paciente de 32 años quien asiste por odontalgia en 26 el cual presenta caries OM profunda. Dentro de sus antecedentes refiere haber presentado hepatitis B hace 25 días. Después de la atención odontológica es necesario:",
+      "answer": "Lavar y sumergir el instrumental en hipoclorito 0.5 % para luego esterilizar"
+    },
+    {
+      "question": "En un paciente de 34 años de edad con caries oclusal en el 24 y respuesta pulpar disminuida aunque algo sensible a la percusión; radiográficamente se observa una lesión apical radiolúcida, circular, bien definida. Los hallazgos histológicos revelaron un contenido de fibroblastos, vasos sanguíneos, al igual que células plasmáticas, linfocitos y fagocitos mononucleares. Estos hallazgos corresponden a:",
+      "answer": "Granuloma periapical"
+    },
+    {
+      "question": "Paciente adulto que presenta absceso orofacial que no responde a la terapia con penicilina cristalina. El resultado del cultivo reporta microorganismos productores de beta-lactamasa. Se decide utilizar amoxicilina más ácido clavulánico. Con respecto a esta combinación cabe anotar:",
+      "answer": "Confiere resistencia contra las beta-lactamasas"
+    },
+    {
+      "question": "Paciente de 19 años con insuficiencia valvular mitral, a quien se le realizará exodoncia de restos radiculares de 36, para lo cual se realiza profilaxis antibiótica con amoxilina 2g 1 hora antes del procedimiento, 1g, 6 horas después y 500mg cada 8 horas durante 7 días. El procedimiento duró 15 minutos. En relación con esta prescripción usted cree:",
+      "answer": "Se debe administrar dosis única de 2g 1 hora antes del procedimiento"
+    },
+    {
+      "question": "Del tratamiento de la candidiasis atrófica o eritematosa en pacientes con prótesis removible desadaptada, se puede afirmar que:",
+      "answer": "Ninguna de las anteriores"
+    },
+    {
+      "question": "A un paciente de 60 años con diagnóstico de angina de pecho controlada, se le extirpó un quiste en región premolar, utilizando lidocaína 2% con adrenalina 1:80.000. Sobre esta selección puede comentarse:",
+      "answer": "La lidocaína puede precipitar un ataque anginoso"
+    },
+    {
+      "question": "Un exceso de anestésico con vasoconstrictor en el paladar puede traer como consecuencia:",
+      "answer": "Necrosis del tejido"
+    },
+    {
+      "question": "Para la exodoncia del diente 47 es necesario anestesiar:",
+      "answer": "Los nervios dentario inferior, lingual y largo bucal"
+    },
+    {
+      "question": "Si un paciente consulta por dolor hemifacial izquierda, sin antecedente de trauma, con tiempo de evolución 4 días, con historia de chasquido que ceso con el evento doloroso y presenta un cuadro clínico como el descrito a continuación, diga su impresión diagnóstica. - dolor a la palpación lateral - dolor a la manipulación posterior de la mandíbula - dolor que aumenta con función - apertura disminuida 26 mm - deflexión en apertura izquierda - existe laterprotrusión izquierdo - movimiento de lateralidad contra- lateral limitada",
+      "answer": "Desplazamiento del disco sin reducción ATM izquierdo"
+    },
+    {
+      "question": "El desprogramador anterior esta indicado como manejo de urgencia en:",
+      "answer": "Dolor miofascial"
+    },
+    {
+      "question": "- Un paciente de 7 años de edad, en el primer periodo transicional, que al exàmen clìnico en oclusion normal usted encuentra una mordida cruzada anterior, y al manipularlo a centrica logra una relacion borde a borde ud lo diagnosticaria como:",
+      "answer": "A.- Pseudo clase III"
+    },
+    {
+      "question": "- Un cráneo-maxilar de tracción cervical actúa:",
+      "answer": "B.- Extruyendo y distalizando molares"
+    },
+    {
+      "question": "- Los métodos de análisis en dentición mixta sirven para:",
+      "answer": "D.- Determinar espacio disponible para la erupción de premolares y caninos permanentes"
+    },
+    {
+      "question": "Paciente de 8 años de edad quien sufrió trauma dentoalveolar de 2 días de evolución. Al examen clínico y radiográfico se observa intrusión del 100% del central superior derecho permanente. Indique tratamiento de elección:",
+      "answer": "Esperar reerupción por lo menos seis meses."
+    },
+    {
+      "question": "Paciente de 6 años de edad y 20 kg. de peso, madre refiere a la anamnesis haber presentado fiebre de 38 grados , con historia de recubrimiento pulpar indirecto profundo, al examen clínico presenta borramiento del surco yugal, sintomatología dolorosa a la percusión y presión a nivel del 65, radiográfica mente se observa obturación en limite dentino pulpar. Indique el diagnostico pulpar:",
+      "answer": "Periodontitis apical aguda no supurativa."
+    },
+    {
+      "question": "La radiografía indicada para confirmar el diagnostico pulpar es:",
+      "answer": "Periapical."
+    },
+    {
+      "question": "La geminación de dientes se identifica radiograficamente como:",
+      "answer": "Un diente con la corona dividida y una sola raíz."
+    },
+    {
+      "question": "Dentro de los requerimientos para realizar una resina directa OD en posteriores esta:",
+      "answer": "Aislamiento absoluto de diente único"
+    },
+    {
+      "question": "Un niño de 10 años presenta al examen clínico una caries de mancha blanca en un 35, al hacer control de placa el porcentaje es del 20% y en su boca, no presenta mas caries ni obturaciones. El tratamiento a seguir para esta caries es:",
+      "answer": "Colocación de Flúor aplicado en forma tópica."
+    },
+    {
+      "question": "La eficacia de la técnica adhesiva, se basa en la formación adecuada de la capa híbrida, con este fin el mejor procedimiento después de realizar el grabado ácido y antes de colocar el adhesivo es:",
+      "answer": "Secar la cavidad con papel absorbente dejando una superficie ligeramente húmeda, que impida el colapso de la malla colágena y permita la formación de los enlaces adhesivos."
+    },
+    {
+      "question": "El retenedor directo “circunferencial en anillo” esta indicado en molares aislados por que:",
+      "answer": "Feruliza el diente pilar por su acción de abrazadera"
+    },
+    {
+      "question": "Un paciente presenta lesión de furca en un 46 por vestibular de 1mm, en sentido horizontal y en sentido vertical no llega a 3 mm. Su clasificación sería:",
+      "answer": "Grado I A"
+    },
+    {
+      "question": "Si un paciente que presenta en el 31 una retracción de 3 mm y profundidad de surco de 2 mm, su nivel de inserción es:",
+      "answer": "5 mm"
+    },
+    {
+      "question": "Un paciente de 45 años sin compromiso sistémico, llega al servicio de urgencias con absceso periodontal del 33. Presenta pérdida ósea angular y un sondaje de 7 mm en distal y vestibular, con sangrado y supuración. El tratamiento más indicado es:",
+      "answer": "Detartraje y alisado radicular a campo cerrado"
+    },
+    {
+      "question": "Paciente de 48 años de edad, que consulta por dolor sordo constante de tres días de evolución, que cede con analgésicos, aumenta a la percusión lateral, y esta localizado en el 35. clínicamente presenta bolsa con pérdida de inserción de 7 mm, activa, exudado purulento, tumefacción localizada lateral a la raíz. Control de placa de 65%. Radiográficamente, se observa pérdida ósea horizontal moderada. Las pruebas de sensibilidad pulpar son positivas. Cuál es el diagnóstico:",
+      "answer": "Absceso periodontal"
+    },
+    {
+      "question": "Con el examen clínico y radiográfico de un paciente de 30 años se llegó al diagnóstico de gingivitis simple generalizada(sin compromiso sistémico). El tratamiento de elección debe ser:",
+      "answer": "Fase higiénica"
+    },
+    {
+      "question": "El estudio de las rugas palantinas con fines de identificación se conoce con el nombre de:",
+      "answer": "Rugoscopia"
+    },
+    {
+      "question": "En la etiología de la clase II div 2 predominan:",
+      "answer": "La herencia"
+    },
+    {
+      "question": "El streptococo mutans se diferencia de otras especies por su capacidad de fermentar:",
+      "answer": "Sorbitol y manitol"
+    },
+    {
+      "question": "El uso de corticoides en endodoncia se relaciona con el siguiente",
+      "answer": "Periodontitis apical aguda"
+    },
+    {
+      "question": "Son signos necesarios , suficientes e indispensables para el diagnostico del GUN:",
+      "answer": "Ulceración, hemorragia, dolor."
+    },
+    {
+      "question": "Es un signo secundario del GUN:",
+      "answer": "Fiebre"
+    },
+    {
+      "question": "El stress es un factor importante en la aparición del Gun por que eleva los niveles de:",
+      "answer": "Corticoides endogenos"
+    },
+    {
+      "question": "Desde el punto de vista etiológico para un diente multiradicular es mejor:",
+      "answer": "Tener un tronco de 7 o más mm"
+    },
+    {
+      "question": "Un molar superior tiene:",
+      "answer": "3 entradas de furcacion"
+    },
+    {
+      "question": "Paciente de 21 años de edad, sin compromiso sistémico quien presenta a nivel del 15 hemorragia al sondaje y los siguientes registros de margen y surco: Margen 000 Bolsa 333. El diagnostico del 15 seria:",
+      "answer": "Gingivitis simple"
+    },
+    {
+      "question": "La respuesta del tejido periodontal a una invasión del espesor biológico dependerá del biotipo periodontal que presente el paciente. Si un odontólogo observa un biotipo periodontal grueso, la reacción del tejido gingival a una corona desadaptada subgingivalmente será:",
+      "answer": "Hiperplasia gingival con pérdida ósea localizada"
+    },
+    {
+      "question": "En un paciente al cual se le va a realizar un injerto de hueso autólogo, el injerto puede ser de:",
+      "answer": "Zona retromolar del mismo paciente"
+    },
+    {
+      "question": "En un paciente de 45 años, sistémicamente sano, con presencia de todos los dientes y diagnóstico de periodontitis crónica incipiente en molares superiores derechos, gngivitis simple en los demás sitios y lesión de furca grado 1 en 16 por mesial; de los siguientes tratamiento cuál sería el más adecuado para el tratamiento de la lesión de furca:",
+      "answer": "Raspaje y alisado radicular"
+    },
+    {
+      "question": "El aspecto normal de la encía es:",
+      "answer": "Mate"
+    },
+    {
+      "question": "Paciente de 7 años de edad, que llega a la clínica con dolor espontáneo de un 54 de 3 días de evolución, radiograficamente se observa lesión de furca, conductos parcialmente obturados y destrucción coronal. El tratamiento es:",
+      "answer": "Exodoncia"
+    },
+    {
+      "question": "De las tres ramas del trigémino se considera nervio mixto (sensitivo–motor):",
+      "answer": "N. maxilar inferior"
+    },
+    {
+      "question": "En una prótesis removible, ¿cómo se colocan los conectores menores?:",
+      "answer": "Paralelos al eje de fulcro"
+    },
+    {
+      "question": "En cuanto al glutaraldehído es correcto afirmar:",
+      "answer": "Es bactericida"
+    },
+    {
+      "question": "El 54 presenta caries en fosa central, el resto de fisuras oclusales están sanas; la caries involucra esmalte y dentina. ¿Qué tratamiento realizaría?:",
+      "answer": "Resina preventiva"
+    },
+    {
+      "question": "¿Cuál es la proporción agua-polvo ideal en la preparación del yeso tipo 4?:",
+      "answer": "21 ml de agua por 100 gramos de polvo"
+    },
+    {
+      "question": "Un tumor odontogénico epitelial que se forma específicamente de los restos epiteliales de Malassez:",
+      "answer": "Ameloblastoma"
+    },
+    {
+      "question": "Para un blanqueamiento interno en diente no vital, ¿cuál es el material de preferencia?:",
+      "answer": "Peróxido de hidrógeno"
+    },
+    {
+      "question": "El transporte de un líquido a través de una membrana se denomina:",
+      "answer": "Difusión pasiva"
+    },
+    {
+      "question": "Los propioceptores son aquellos receptores que:",
+      "answer": "Responden a estímulos internos"
+    },
+    {
+      "question": "¿Qué establece la técnica de Clark en la interpretación radiográfica?",
+      "answer": "El objeto más cercano a la película conserva su posición y el más alejado se mueve en dirección contraria al tubo de rayos."
+    },
+    {
+      "question": "Nervio maxilar inferior (V3): describa su origen y trayecto",
+      "answer": "Nervio de tipo mixto. Nace del ganglio de Gasser en la fosa craneal media como un nervio sensitivo; se dirige verticalmente hacia abajo hacia el agujero oval, por el que ingresa hacia la fosa cigomática. Durante su paso por este agujero, la raíz motora del trigémino se funde a él, convirtiéndolo así en nervio mixto. Durante su recorrido, da 8 ramas: 1 colateral y 7 terminales."
+    },
+    {
+      "question": "¿Cuáles son los fórceps universales utilizados para extracciones superiores e inferiores?",
+      "answer": "Fórceps 150 superiores y 151 inferiores."
+    },
+    {
+      "question": "¿Cómo se caracteriza clínicamente la gingivoestomatitis herpética?",
+      "answer": "En su etapa inicial se distingue por la presencia de vesículas discretas y esféricas, en la encía, mucosas labial y vestibular, paladar blando, faringe, mucosa sublingual y lengua. Luego de unas 24 horas, las vesículas se rompen y forman pequeñas úlceras dolorosas, con un margen en halo rojo elevado y una porción central amarillenta o blanco grisáceo."
+    },
+    {
+      "question": "¿Cómo se llama el fenómeno de pérdida de líquido de un material dental?",
+      "answer": "Sinéresis: pérdida de líquido por parte de un material."
+    },
+    {
+      "question": "¿Qué es el tronco radicular?",
+      "answer": "Es la región radicular no dividida de la raíz; su altura está determinada por la distancia entre la LCE y el comienzo de la bi o trifurcación. Puede clasificarse en 3 categorías: corto (hasta 4 mm), mediano (entre 4 y 6 mm) y largo (más de 6 mm). Un tronco radicular corto predispone a una lesión de furcación más temprana (peor pronóstico); uno largo retrasa el compromiso de furca (mejor pronóstico)."
+    },
+    {
+      "question": "Bloqueo del nervio alveolar superior anterior: ¿qué zona cubre?",
+      "answer": "Incisivos y caninos; sus ramas junto con las del alveolar superior posterior generalmente forman el plexo dental superior."
+    },
+    {
+      "question": "Bloqueo del nervio alveolar superior medio: ¿qué zona cubre?",
+      "answer": "Molares deciduos superiores o premolares y la raíz mesial del primer molar en un cuadrante."
+    },
+    {
+      "question": "Bloqueo del nervio alveolar superior posterior: ¿qué zona cubre?",
+      "answer": "Uno o varios molares en un cuadrante superior; la raíz mesobucal del primer molar no está inervada por este nervio."
+    },
+    {
+      "question": "Bloqueo del nervio palatino anterior (posterior/mayor): ¿qué zona cubre?",
+      "answer": "Distal al canino en un cuadrante; raíz distal de 1er molar, 2do y 3er molares."
+    },
+    {
+      "question": "Bloqueo del nervio palatino medio: ¿qué zona cubre?",
+      "answer": "Premolares y raíz mesial del primer molar."
+    },
+    {
+      "question": "Bloqueo del nervio nasopalatino: ¿qué zona cubre?",
+      "answer": "Inerva la parte anterior del paladar hasta el canino; recomendado para trabajar de canino a canino."
+    },
+    {
+      "question": "¿Cuáles son los 5 grupos de fibras periodontales?",
+      "answer": "1) Grupo de cresta alveolar: desde la cresta alveolar al cemento. 2) Grupo horizontal: perpendiculares al eje mayor del diente. 3) Grupo oblicuo: dirección oblicua desde el cemento al hueso. 4) Grupo apical: dispuestas radialmente alrededor del ápice. 5) Grupo interradicular: solo en dientes con dos o más raíces."
+    },
+    {
+      "question": "¿Cómo se define y diagnostica el desplazamiento agudo del disco de la ATM SIN reducción?",
+      "answer": "El disco no se reduce o queda 'permanentemente' desplazado y no mejora su relación con el cóndilo. Generalmente hay dolor, especialmente al intentar abrir la boca; con el tiempo el dolor se reduce del estado agudo a uno más leve. Criterios diagnósticos (deben estar TODOS presentes): 1) Limitación marcada y persistente de la apertura bucal (≤35mm) con historia de limitación progresiva; 2) Desviación hacia el lado afectado al abrir la boca; 3) Marcada limitación de laterotrusión hacia el lado contralateral; 4) Imágenes confirman desplazamiento del disco sin reducción. Puede acompañarse de: dolor al forzar la apertura, historia de clic que cesó al trabarse, dolor a la palpación del lado afectado, hiperoclusión ipsilateral, y cambios osteoartríticos moderados."
+    },
+    {
+      "question": "¿Dónde se ubican los espacios primates?",
+      "answer": "Mesial de caninos superiores y distal de caninos inferiores."
+    },
+    {
+      "question": "¿Qué es la proquelia?",
+      "answer": "Posición adelantada de los labios."
+    }
   ]
 };
