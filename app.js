@@ -318,6 +318,7 @@ function selectChapter(chapterId) {
   renderMaterials();
   resetTestUI();
   showChapterView();
+  collapseChapterDropdownOnMobile();
 }
 
 async function removeChapter(chapterId) {
@@ -356,6 +357,16 @@ chapterDropdownToggle.addEventListener('click', () => {
   const collapsed = chapterDropdown.classList.toggle('collapsed');
   chapterDropdownToggle.classList.toggle('collapsed', collapsed);
 });
+
+function isMobileViewport() {
+  return window.matchMedia('(max-width: 768px)').matches;
+}
+
+function collapseChapterDropdownOnMobile() {
+  if (!isMobileViewport()) return;
+  chapterDropdown.classList.add('collapsed');
+  chapterDropdownToggle.classList.add('collapsed');
+}
 
 /* ---------- Tabs ---------- */
 tabButtons.forEach(btn => {

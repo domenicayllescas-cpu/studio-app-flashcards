@@ -717,6 +717,89 @@ body {
   color: var(--purple);
 }
 
+/* ============================================================
+   Vista móvil: menú de capítulos desplegable, solo flashcards
+   ============================================================ */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .app {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-radius: 0 0 22px 22px;
+    padding: 16px 18px;
+    flex-shrink: 0;
+  }
+
+  .sidebar h1 {
+    font-size: 16px;
+  }
+
+  .sidebar-subtitle {
+    display: none;
+  }
+
+  .chapter-dropdown {
+    flex: none;
+    max-height: 45vh;
+  }
+
+  .add-chapter-form,
+  .global-test-nav-btn {
+    display: none;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+  #chapter-view .tabs,
+  #chapter-view .add-card-form,
+  #chapter-view .ai-cards-panel,
+  #chapter-view .view-toggle,
+  #chapter-view .cards-grid {
+    display: none !important;
+  }
+
+  .content-header h2 {
+    font-size: 19px;
+  }
+
+  .cards-toolbar {
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .study-mode {
+    gap: 10px;
+    padding: 4px 0 12px;
+  }
+
+  .study-flashcard {
+    height: 340px;
+  }
+
+  .study-flashcard .flashcard-face {
+    padding: 22px;
+    font-size: 15.5px;
+    align-items: flex-start;
+    padding-top: 34px;
+  }
+
+  .nav-arrow {
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+}
+
 .flashcard {
   perspective: 1000px;
   height: 170px;
